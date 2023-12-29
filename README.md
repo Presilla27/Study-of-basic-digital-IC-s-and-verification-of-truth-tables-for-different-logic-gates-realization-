@@ -1,4 +1,14 @@
-# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
+module project_3(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or(y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor(y6,a,b);
+xnor (y7,a,b);
+endmodule# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
 ## AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
@@ -66,6 +76,18 @@ Program to verify the truth table in quartus for the basic logic gates using Ver
 Developed by: PRESILLA K
 RegisterNumber:  212223050038
 */
+module project_3(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or(y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor(y6,a,b);
+xnor (y7,a,b);
+endmodule
+```
 ## Logic symbol & Truthtable
 ![image](https://github.com/Presilla27/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/155127632/201b146e-52df-4b6e-a017-2e18b908f401)
 
@@ -74,7 +96,7 @@ RegisterNumber:  212223050038
 
 ## WAVEFORM
 ![image](https://github.com/Presilla27/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/155127632/7f136d4f-8e81-4ca0-95e4-5e5054b894a8)
-```
+
 
 
 
